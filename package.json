@@ -1,0 +1,29 @@
+{
+  "name": "js-tools",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "JS utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node --test",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danrusu/js-tools.git"
+  },
+  "keywords": [
+    "js",
+    "utilities"
+  ],
+  "author": "Dan Rusu <danginkg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danrusu/js-tools/issues"
+  },
+  "homepage": "https://github.com/danrusu/js-tools#readme",
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "standard": "^17.1.0"
+  }
+}
